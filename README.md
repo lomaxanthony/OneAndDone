@@ -1,6 +1,6 @@
 # One&Done Golf
 
-The **One&Done Golf** is a web application designed to track player standings and earnings for a golf league. Players select one golfer per tournament, and their earnings from that golfer are added to their season total. Players are not allow to select a golfer more than once per season. The Player with the most money earned at the end of the season win for the year. The app provides a dynamic leaderboard to display player rankings based on total earnings as well as some additional stats about player's selctions and golfers performance.
+**One&Done Golf** is a web application designed to track player standings and earnings in a golf league. Players select one golfer per tournament, and the earnings from that golfer are added to their season total. Players cannot select the same golfer more than once per season. The player with the highest earnings at the end of the season wins the contest. The app features a dynamic leaderboard that displays player rankings based on total earnings, along with additional stats about a player's selections and golfer performance.
 
 ## Key Features
 
