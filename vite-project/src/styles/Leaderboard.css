@@ -1,0 +1,44 @@
+.leaderboard {
+    border: 1px solid skyblue;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .leaderboard-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid skyblue;
+  }
+  
+  .leaderboard-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .playerInfo {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 12px 15px;
+    border-bottom: 1px solid skyblue;
+  }
+  
+  .playerInfo:hover {
+    background-color: gray;
+  }
+  
+  .player-name {
+    flex: 1;
+  }
+  
+  .player-money {
+    text-align: right;
+    min-width: 100px;
+  }
+
+ .leaderboard ul {
+    padding: 0;
+    list-style: none;
+ }

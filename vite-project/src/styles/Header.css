@@ -1,0 +1,44 @@
+.header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    margin: 0;
+    margin-right: 60px;
+    margin-right: 30px;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+ }
+  
+  .navItem {
+    margin-left: 30px;
+    margin-top: 20px;
+    align-content: center;
+    
+  }
+  
+  .navLink {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navLink:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
