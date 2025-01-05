@@ -1,5 +1,7 @@
 .leaderboard {
-    border: 1px solid skyblue;
+    padding: 10px ;
+    border: 3px solid rgb(50, 71, 31);
+    margin: 10px;
     border-radius: 8px;
     overflow: hidden;
   }
@@ -7,9 +9,19 @@
   .leaderboard-header {
     display: flex;
     justify-content: space-between;
+    margin: 3px;
     padding: 15px;
     font-weight: bold;
-    border-bottom: 2px solid skyblue;
+    border-bottom: 2px solid rgba(166, 236, 105, 0.35);;
+  }
+
+  .header-name {
+    padding: 7px;
+  }
+
+  .header-money {
+    padding: 7px;
+    justify-content:last baseline;
   }
   
   .leaderboard-list {
@@ -22,7 +34,7 @@
     display: flex;
     /* justify-content: space-between; */
     padding: 12px 15px;
-    border-bottom: 1px solid skyblue;
+    border-bottom: 1px solid rgba(166, 236, 105);
   }
   
   .playerInfo:hover {
@@ -31,6 +43,9 @@
   
   .player-name {
     flex: 1;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
   }
   
   .player-money {

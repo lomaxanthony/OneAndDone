@@ -1,0 +1,42 @@
+
+.select-golfer {
+    padding: 10px ;
+    border: 3px solid rgb(50, 71, 31);
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.select-golfer-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.select-golfer-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    height: 38px;
+    margin-bottom: 20px;
+}
+
+.select-golfer-form > input {
+    border-radius: 6px;
+    border: 1px solid rgba(166, 236, 105);
+    padding: 9px 13px;
+    box-shadow: 0px 1px 2px 0px rgba(.3, 0, 0. 0.05);
+    flex-grow: 1;
+    min-width: 150px;
+    max-width: 450px;
+}
+
+.select-golfer-form > button {
+    font-family: Inter, sans-serif;
+    border-radius: 6x;
+    border: none;
+    background-color: rgba(166, 236, 105, 0.35);
+    width: 150px;
+}
